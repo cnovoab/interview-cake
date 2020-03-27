@@ -1,7 +1,7 @@
 {
-  "name": "hi-cal",
+  "name": "interview-cake",
   "version": "1.0.0",
-  "description": "Hi Calendar exercise",
+  "description": "Exercises for Interview Cake platform",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,13 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/cnovoab/interview-cake.git"
   },
+  "keywords": [
+    "coding",
+    "interview",
+    "cake"
+  ],
   "author": "Claudio Novoa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cnovoab/interview-cake/issues"
   },
   "homepage": "https://github.com/cnovoab/interview-cake#readme",
-  "devDependencies": {
-    "jest": "^25.2.1"
+  "dependencies": {
+    "jest": "^25.2.3"
   }
 }
