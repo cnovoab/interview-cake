@@ -1,4 +1,4 @@
-const checkOrders = require('./index.js');
+const checkOrders = require('../cafe-order-checker.js');
 
 describe('Check orders', () => {
   test('Not first come - first serve', () => {

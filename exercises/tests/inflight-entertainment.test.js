@@ -1,4 +1,4 @@
-const canTwoMoviesFillFlight = require('./index.js');
+const canTwoMoviesFillFlight = require('../inflight-entertainment.js');
 
 describe('Check if two movies sums exactly the flight length', () => {
   test('short flight', () => {

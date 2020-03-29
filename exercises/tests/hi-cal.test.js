@@ -1,4 +1,4 @@
-const mergeRanges = require('./index.js');
+const mergeRanges = require('../hi-cal.js');
 describe('Base case', () => {
   const meetings = [
     { startTime: 0,  endTime: 1 },

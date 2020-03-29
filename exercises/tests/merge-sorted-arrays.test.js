@@ -1,4 +1,4 @@
-const mergeArrays = require('./index.js');
+const mergeArrays = require('../merge-sorted-arrays.js');
 
 test('Merge arrays sorted', () => {
   const myArray = [3, 4, 6, 10, 11, 15];

@@ -1,4 +1,4 @@
-const reverseWords = require('./index.js');
+const reverseWords = require('../reverse-words-in-place.js');
 
 test('Reverse array of words', () => {
   const message = [ 'c', 'a', 'k', 'e', ' ',

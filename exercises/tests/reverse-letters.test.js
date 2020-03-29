@@ -1,4 +1,4 @@
-const reverseLetters = require('./reverse-letters.js');
+const reverseLetters = require('../reverse-letters.js');
 
 test('Reverse even array of characters', () => {
   const sampleInput = ['b', 'l', 'o', 'c', 'k', 'c', 'h', 'a', 'i', 'n'];
