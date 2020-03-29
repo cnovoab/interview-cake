@@ -1,12 +1,18 @@
 const checkOrders = (takeOutOrders, dineInOrders, servedOrders) => {
-  const takeOut = [];
-  const dineIn = [];
-  for (order of servedOrders) {
-    if (takeOutOrders.includes(order)) takeOut.push(order);
-    if (dineInOrders.includes(order)) dineIn.push(order);
+  let takeOutIndex = 0;
+  let dineInIndex = 0;
+
+  for (let i = 0; i < servedOrders.length; i++) {
+    if (servedOrders[i] === takeOutOrders[takeOutIndex]) {
+      takeOutIndex++;
+    } else if (servedOrders[i] === dineInOrders[dineInIndex]) {
+      dineInIndex++;
+    } else {
+      return false;
+    }
   }
-  return JSON.stringify(takeOut) === JSON.stringify(takeOutOrders) &&
-    JSON.stringify(dineIn) === JSON.stringify(dineInOrders);
+  return takeOutIndex === takeOutOrders.length &&
+    dineInIndex === dineInOrders.length;
 };
 
 module.exports = checkOrders;
